@@ -1,0 +1,16 @@
+.film-wrapper{
+    width:30rem;
+    margin: 0 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(137, 175, 173);
+    display:flex;
+    flex-direction:column;
+    align-self:flex-start;
+}
+.film-title{
+    font-family: 'Patua One';
+    font-size:2.6rem;
+}
+.film__text{
+    padding:.7rem;
+}

@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import IndecisionApp from './components/IndecisionApp';
+import MovieBrowser from './components/MovieBrowser';
 import 'normalize.css/normalize.css';
 import './style/style.scss';
 
 
-ReactDOM.render(<p>React Boilerplate</p>, document.getElementById('app'));
-
+ReactDOM.render(<MovieBrowser />, document.getElementById('app'));
